@@ -7,7 +7,7 @@
 printf -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 printf -e "Build the project."
-rmdir docs/** -r
+rmdir docs/** --r
 printf "statistquo.com" > docs/CNAME
 hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
