@@ -7,8 +7,8 @@
 printf "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 printf "Build the project."
-# rmdir docs/** -r
-# rm -rf docs/** 
+rmdir docs/** -r
+rm -rf docs/** 
 printf "statistquo.com" > docs/CNAME
 hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
