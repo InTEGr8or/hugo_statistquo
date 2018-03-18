@@ -1,7 +1,7 @@
 ---
 title: About
 date: 2018-02-28
-lead: A lie is not your aly. It is a liability
+lead: The false narrative of the beneficent state. 
 ---
 
 Is fidelity to truth something you owe other people? Or, rather, is it something of the very highest importance to yourself?
