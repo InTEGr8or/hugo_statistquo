@@ -1,0 +1,26 @@
+# language: python
+
+install:
+    - wget https://github.com/gohugoio/hugo/releases/download/v0.31.1/hugo_0.31.1_Linux-64bit.deb
+    - sudo dpkg -i hugo*.deb
+    # - pip install Pygments
+
+script:
+    - git checkout master
+    # - cd layouts
+    # - git pull 
+    # - git add .
+    # - git commit -m "updates from travis `date`"
+    # - git push 
+    # - cd ..
+    - rm -rf docs
+    - hugo
+    - rm -r hugo_0*.deb
+    - baseURL=$(cat config.toml | grep baseURL | awk '{print $3}' | tr -d \")
+    - echo $baseURL
+    - printf $baseURL > docs/CNAME
+
+after_success: 
+    - git add --force docs/
+    - git -c user.name='travis' -c user.email='travis' commit -m "travis build `date`"
+    - git push https://${GH_TOKEN}@github.com/integr8or/phi-fi master

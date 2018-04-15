@@ -1,7 +1,7 @@
 theme = "whiteplain"
 baseURL = "http://statistquo.com"
 languageCod = "en-us"
-topics = ["Contradition", "Universal", "Activity"]
+topics = []
 
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
@@ -14,7 +14,7 @@ googleAnalytics = "UA-115076488-1"
 
 [params]
   title = "Statist Quo"
-  taglines = ["A lie is not your aly,", "it is a liability."]
+  taglines = ["State above man", "Critique of an ideal"]
   # Date format
   #dateFormat = "January 2, 2006"
 

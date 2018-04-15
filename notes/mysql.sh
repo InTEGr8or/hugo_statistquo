@@ -1,0 +1,1 @@
+ # C:/tools/mysql-shell-1.0.11-windows-x86-64bit/bin/mysqlsh.exe
