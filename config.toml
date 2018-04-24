@@ -15,6 +15,7 @@ googleAnalytics = "UA-115076488-1"
 [params]
   title = "Statist Quo"
   taglines = ["State above man", "Critique of an ideal"]
+  githubURL = "https://github.com/integr8or/statistquo"
   # Date format
   #dateFormat = "January 2, 2006"
 
