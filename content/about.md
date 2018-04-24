@@ -1,6 +1,6 @@
 ---
 title: About
-date: 2018-02-28 00:00:00 Z
+date: 2018-02-28 00:00:00
 lead: The false narrative of the beneficent state.
 ---
 
