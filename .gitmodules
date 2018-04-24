@@ -4,7 +4,3 @@
 [submodule "public"]
 	path = public
 	url = git@github.com:InTEGr8or/nofakingway.git
-[submodule "layouts"]
-	path = layouts
-	url = git@github.com:InTEGr8or/hugo_blackplain_theme.git
-	branch = master
