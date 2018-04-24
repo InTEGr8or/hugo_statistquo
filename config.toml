@@ -1,4 +1,4 @@
-theme = "whiteplain"
+theme = "blackplain"
 baseURL = "http://statistquo.com"
 languageCod = "en-us"
 topics = []
