@@ -26,14 +26,6 @@ if [ $# -eq 1 ]
   then msg="$1"
 fi
 
-# Go To layouts/ 
-cd layouts
-git add .
-git commit -m "$msg"
-git pull
-git push
-# return to parent folder
-cd ..
 
 # Add changes to git.
 git add .

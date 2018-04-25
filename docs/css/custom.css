@@ -3,6 +3,9 @@ body {
 	background-color: #000;
 }
 
+article {
+	clear: both;
+}
 article h1 {
 	color: goldenrod;
 }
@@ -22,6 +25,13 @@ a {
 .article img {
 	border: none;
 	padding: 7px 5px 5px 0;
+}
+.card{
+	background-color: #000;
+}
+.card-body{
+	padding-left: 0;
+	background-color: inherit;
 }
 
 .terms {
