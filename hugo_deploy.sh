@@ -5,7 +5,7 @@
 #*
 # rm -rf public
 # git submodule add -b master https://github.com/taikii/whiteplain.git themes/whiteplain
-# git submodule add -b master git@github.com:InTEGr8or/hugo_blackplain_theme.git layouts
+# git submodule add -b master https://github.com/InTEGr8or/hugo_blackplain_theme.git themes/blackplain
 # git clone https://gist.github.com/aad5b14b17276e803d352898a6c88c5b.git tmp
 # mv hugo_deploy.sh .
 # rm -rf tmp/
@@ -26,6 +26,14 @@ if [ $# -eq 1 ]
   then msg="$1"
 fi
 
+cd themes/blackplain
+git add .
+git commit -m "$msg"
+git pull
+git push
+# return to parent folder
+cd ../..
+git add themes/blackplain
 
 # Add changes to git.
 git add .

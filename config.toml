@@ -9,7 +9,7 @@ SectionPagesMenu = "main"
 Paginate = 10 
 enableRobotsTXT = true
 publishDir = "docs"
-googleAnalytics = "UA-115076488-1"
+googleAnalytics = "UA-30659457-2"
 
 
 [params]
