@@ -2,6 +2,7 @@
 title: Opposition
 draft: true
 ---
+
 If the statist ideal is wrong, it must be demonstrable to be wrong as opposed to something that is right. Things can only be wrong in relation to some truth, which they can be shown to be in opposition to, which they can be show to _contradict_.
 
 
